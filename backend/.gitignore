@@ -1,0 +1,8 @@
+bin/
+obj/
+uploads/*
+!uploads/.gitkeep
+*.user
+*.suo
+.vs/
+appsettings.Development.json
