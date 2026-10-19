@@ -1,8 +1,76 @@
+## .NET / Visual Studio
 bin/
 obj/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+*.rsuser
+.vs/
+*.DotSettings.user
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+## Build / publish output
+publish/
+*.publishsettings
+*.pubxml
+*.pubxml.user
+PublishScripts/
+
+## Logs & temp
+*.log
+*.tmp
+*.temp
+*.cache
+[Ll]og/
+[Ll]ogs/
+
+## Secrets / local overrides (keep appsettings.json with placeholders)
+appsettings.*.local.json
+*.pfx
+*.key
+secrets.json
+
+## Test / coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+TestResult.xml
+nunit-*.xml
+
+## OS / IDE
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+*.swp
+*~
+
+## Uploaded resumes at runtime (keep sample PDFs + .gitkeep)
 uploads/*
 !uploads/.gitkeep
-*.user
-*.suo
-.vs/
-appsettings.Development.json
+!uploads/1000000001-Software_Engineer_Alex_Rivera.pdf
+!uploads/1000000002-Mechanical_Engineer_Jordan_Blake.pdf
+!uploads/1000000003-Electrical_Engineer_Samira_Khan.pdf
+
+## Python helper (cache only)
+scripts/__pycache__/
+*.pyc
